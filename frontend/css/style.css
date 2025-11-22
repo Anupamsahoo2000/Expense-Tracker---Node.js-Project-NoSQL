@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f4f4f4;
+}
+.container {
+  background-color: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 320px;
+  transition: all 0.3s ease-in-out;
+}
+form {
+  display: none;
+  flex-direction: column;
+  gap: 10px;
+}
+form.active {
+  display: flex;
+}
+input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+button {
+  padding: 10px;
+  background: #4caf50;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+button:hover {
+  background: #45a049;
+}
+.toggle {
+  margin-top: 10px;
+  text-align: center;
+  color: blue;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#forgotPasswordForm h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
